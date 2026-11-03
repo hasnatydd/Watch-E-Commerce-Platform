@@ -1,0 +1,72 @@
+[
+  {
+    "id": "cfg-cod",
+    "methodKey": "COD",
+    "displayName": "Cash on Delivery (ক্যাশ অন ডেলিভারি)",
+    "instructions": "Pay with cash when your luxury parcel arrives at your doorstep. For orders outside Dhaka, an advance courier confirmation fee may be required.",
+    "isActive": true,
+    "requiresTransactionId": false,
+    "requiresSenderNumber": false,
+    "displayOrder": 1,
+    "minAdvanceFee": 150
+  },
+  {
+    "id": "cfg-bkash",
+    "methodKey": "BKASH",
+    "displayName": "bKash (বিকাশ সেন্ড মানি)",
+    "accountNumber": "01843-366599 (Personal)",
+    "instructions": "1. Go to your bKash app and select Send Money.\n2. Send the exact order amount to the bKash number shown above.\n3. Enter your Order Number as Reference.\n4. Copy the Transaction ID (TrxID) and enter it below.",
+    "isActive": true,
+    "requiresTransactionId": true,
+    "requiresSenderNumber": true,
+    "displayOrder": 2,
+    "minAdvanceFee": null
+  },
+  {
+    "id": "cfg-nagad",
+    "methodKey": "NAGAD",
+    "displayName": "Nagad (নগদ সেন্ড মানি)",
+    "accountNumber": "01843-366599 (Personal)",
+    "instructions": "1. Open Nagad app or dial *167#.\n2. Send Money to 01843-366599.\n3. Put Order Number in Reference.\n4. Enter TrxID below.",
+    "isActive": true,
+    "requiresTransactionId": true,
+    "requiresSenderNumber": true,
+    "displayOrder": 3,
+    "minAdvanceFee": null
+  },
+  {
+    "id": "cfg-rocket",
+    "methodKey": "ROCKET",
+    "displayName": "Rocket (রকেট সেন্ড মানি)",
+    "accountNumber": "01843-366599-9 (Personal)",
+    "instructions": "1. Open Rocket app or dial *322#.\n2. Send Money to 01843-366599-9.\n3. Enter TrxID below.",
+    "isActive": true,
+    "requiresTransactionId": true,
+    "requiresSenderNumber": true,
+    "displayOrder": 4,
+    "minAdvanceFee": null
+  },
+  {
+    "id": "cfg-bank_transfer",
+    "methodKey": "BANK_TRANSFER",
+    "displayName": "Direct Bank Transfer (ব্যাংক ডিপোজিট)",
+    "accountNumber": "Account Name: ARVANO Horology BD\nAccount No: 1501204899001\nBank: City Bank PLC (Gulshan Branch)\nRouting: 225272654",
+    "instructions": "Transfer the grand total via BEFTN, NPSB, or direct cash deposit. Enter the Deposit Slip / Reference Number below.",
+    "requiresTransactionId": true,
+    "requiresSenderNumber": false,
+    "isActive": true,
+    "displayOrder": 5,
+    "minAdvanceFee": null
+  },
+  {
+    "id": "cfg-manual",
+    "methodKey": "MANUAL",
+    "displayName": "Manual / Custom Payment",
+    "instructions": "Please contact our concierge team at concierge@arvano.com or +880 1700-000000 for bespoke payment arrangements.",
+    "requiresTransactionId": false,
+    "requiresSenderNumber": false,
+    "isActive": true,
+    "displayOrder": 6,
+    "minAdvanceFee": null
+  }
+]

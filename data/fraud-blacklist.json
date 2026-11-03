@@ -1,0 +1,18 @@
+[
+  {
+    "id": "bl-1",
+    "phone": "01999887766",
+    "customerName": "Unknown Guest",
+    "reason": "High-value COD parcel refusal history & fraudulent order spam",
+    "blockedAt": "2026-10-28T14:30:00.000Z",
+    "riskScore": 95
+  },
+  {
+    "id": "bl-2",
+    "phone": "01811990011",
+    "customerName": "Fake Bot Order",
+    "reason": "Automated script rapid-fire checkout spam (5 attempts in 2 min)",
+    "blockedAt": "2026-10-30T18:15:00.000Z",
+    "riskScore": 90
+  }
+]

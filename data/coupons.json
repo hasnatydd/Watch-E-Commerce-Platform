@@ -1,0 +1,53 @@
+[
+  {
+    "id": "coup-1",
+    "code": "ARVANO10",
+    "type": "PERCENTAGE",
+    "value": 10,
+    "minOrderValue": 15000,
+    "maxDiscount": 3000,
+    "startDate": "2026-01-01T00:00:00.000Z",
+    "endDate": "2026-12-31T23:59:59.000Z",
+    "usageLimit": 100,
+    "usedCount": 14,
+    "perCustomerLimit": 1,
+    "isActive": true,
+    "description": "Welcome privilege: 10% off purchases over ৳15,000",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-11-02T06:27:47.601Z"
+  },
+  {
+    "id": "coup-2",
+    "code": "TIMELESS1000",
+    "type": "FIXED",
+    "value": 1000,
+    "minOrderValue": 20000,
+    "maxDiscount": null,
+    "startDate": "2026-01-01T00:00:00.000Z",
+    "endDate": "2026-12-31T23:59:59.000Z",
+    "usageLimit": 50,
+    "usedCount": 8,
+    "perCustomerLimit": 1,
+    "isActive": true,
+    "description": "Flat ৳1,000 instant reduction on flagship acquisitions",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "coup-3",
+    "code": "NOVELTY2500",
+    "type": "FIXED",
+    "value": 2500,
+    "minOrderValue": 30000,
+    "maxDiscount": null,
+    "startDate": "2026-02-01T00:00:00.000Z",
+    "endDate": "2026-12-31T23:59:59.000Z",
+    "usageLimit": 30,
+    "usedCount": 5,
+    "perCustomerLimit": 1,
+    "isActive": true,
+    "description": "High-tier novelty reward voucher for master complications",
+    "createdAt": "2026-02-01T00:00:00.000Z",
+    "updatedAt": "2026-02-01T00:00:00.000Z"
+  }
+]
